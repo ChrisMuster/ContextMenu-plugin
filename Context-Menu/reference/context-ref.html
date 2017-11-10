@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Context Menu</title>
+		<link rel="stylesheet" href="contextCSS-ref.css" type="text/css"/>
+	</head>
+	<body>
+		<ul class="contextCSS">
+			<li id="1">Menu Option 1</li>
+			<li id="2">Menu Option 2</li>
+			<li id="3">Menu Option 3</li>
+			<li id="4">Menu Option 4</li>
+			<li id="5">Menu Option 5</li>
+		</ul>
+		<script src="jquery-3.2.1.min.js"></script>
+		<script src="context-ref.js"></script>
+		<script>
+		var menu = [];
+
+		var obj = {
+			options : {
+				Hide : 'hide',
+				Show : 'show',
+				"Colour Red" : 'red',
+				"Colour Green" : 'green',
+				"Double size" : 'doubleSize',
+				"Half size" : 'halfSize',
+				"Show ID" : 'showID'
+			},
+			onInit : function() {
+
+			},
+			beforeShow : function(element, api) {
+					console.log("Element: ", element);
+				if(menu.length > 0){
+					api.show('show');
+				}
+				else{ 
+					api.hide('show');
+				}
+				if(element.hasClass('green')) {
+					api.hide('green')
+				}
+				api.disable('showID');
+			},
+			callback: function(element, option) {
+
+				switch (option) {
+					case 'hide':
+						menu.push($(element).detach());
+						break;
+					case 'red':
+						$(element).css({"background-color" : "red"}).addClass('red').removeClass('green');
+						break;
+					case 'green' :
+						$(element).css({"background-color" : "green"}).addClass('green').removeClass('red');
+						break;
+					case 'doubleSize' :
+						var size = parseInt($(element).css("font-size"));
+						size = 2 * size;
+						$(element).css({"font-size" : size + "px"});
+						break;
+					case 'halfSize' :
+						var size = parseInt($(element).css("font-size"));
+						size = size / 2;
+						$(element).css({"font-size" : size + "px"});
+						break;
+					case 'showID':
+						alert("Element's ID is: " + element.prop('id'));
+						break;
+					case 'show' :
+						for (var i in menu) {
+							$(element).parent().append(menu[i]);
+						}
+						break;
+					default:
+						console.log("Not set!");
+						break;
+				}
+			}
+		}
+
+		$("li").contextMenu(obj);
+		</script>
+	</body>
+</html>

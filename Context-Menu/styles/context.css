@@ -1,0 +1,83 @@
+body {
+
+}
+
+#menu {
+	margin: 50px auto;
+	text-align: center;
+	padding: 0px;
+}
+
+#menuOptions {
+	padding: 5px;
+	color: DarkBlue;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	list-style-type: none;
+	background-color: #bbb2ff;
+	cursor: pointer;
+	border: 2px solid DarkBlue;
+	border-radius: 5px;
+	display: inline-block;
+	min-width: 178.109px;
+	margin: 0px;
+}
+
+#menuOptions li {
+	padding: 15px 10px;
+	margin: 5px 5px;
+	border: 1px solid DarkBlue;
+	background-color: white;
+}
+
+#menuOptions li:hover {
+	color: white !important;
+	background-color: DarkBlue !important;
+}
+
+.list-star {
+	width: 20px;
+	height: 20px;
+	float: left;
+/*	background-color: white;*/
+	border-radius: 5px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+
+#custContext {
+	z-index: 1000;
+	position: absolute;
+	background-color: #c9f2cd;
+	color: #024908;
+	border: 1px solid DarkGreen;
+	padding: 0px;
+	margin: 0px;
+	min-width: 121px;
+}
+
+#custContext li {
+	list-style-type: none;
+	padding: 8px 12px;
+	text-align: left;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	margin: 0px;
+	cursor: pointer;
+}
+
+#custContext li:hover{
+	background-color: #024908;
+	color: white;
+}
+
+#custContext .disabled {
+	cursor: not-allowed;
+	list-style-type: none;
+	color: #BBB;
+}
+
+#custContext .disabled:hover {
+	background-color: #c9f2cd;
+}

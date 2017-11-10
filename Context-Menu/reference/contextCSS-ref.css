@@ -1,0 +1,47 @@
+.contextCSS {
+	border: 1px solid black;
+	font-family: verdana;
+	background: #EEE;
+	cursor: pointer;
+	display: inline-block;
+}
+
+.contextCSS li {
+	border: 1px solid #DDD;
+}
+
+.contextCSS li:hover{
+	background-color: #CCC;
+}
+
+#contextMenu-custom {
+	z-index: 1000;
+	position: fixed;
+	overflow: hidden;
+	border: 1px solid #CCC;
+	font-family: sans-serif;
+	background: #EEE;
+	color: black;
+	padding: 0;
+}
+
+#contextMenu-custom li{
+	padding: 8px 12px;
+	cursor: pointer;
+	list-style-type: none;
+}
+
+#contextMenu-custom li:hover{
+	background-color: #DDD;
+}
+
+#contextMenu-custom .disabled{
+	padding: 8px 12px;
+	cursor: not-allowed;
+	list-style-type: none;
+	color : #BBB;
+}
+
+#contextMenu-custom .disabled:hover{
+	background-color: #EEE;
+}

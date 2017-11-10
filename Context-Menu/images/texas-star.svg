@@ -1,0 +1,19 @@
+<?xml version="1.0"?><svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+ <title>Texas Star</title>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_2">
+   <circle id="svg_1" r="126.723602" cy="150.833337" cx="150.999998" stroke-width="5" stroke="#000000" fill="#ffffff"/>
+   <path d="m152,147.770981c0,0.40625 -17.767624,-23.382408 -23.626999,-31.132408c0,0 5.859375,7.75 -0.094009,-0.121925c5.814484,-22.99147 23.539948,-91.600039 23.539948,-91.600039c0,0 0.135788,92.249971 0.181061,122.854372z" id="path2355" marker-end="none" marker-mid="none" marker-start="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke="#000000" fill-rule="nonzero" fill="#ffffff"/>
+   <path d="m152,24.923489l0,122.409992l23.414063,-31.000221l-0.019562,0c-0.019577,0 -17.641296,-68.79921 -23.394501,-91.409771z" id="path4704" marker-end="none" marker-mid="none" marker-start="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke="#000000" fill-rule="nonzero" fill="#000000"/>
+   <path d="m175.46875,116.33326l92.807983,-5.344238l-116.276733,36.825233l23.46875,-31.480995z" id="path2339" marker-end="none" marker-mid="none" marker-start="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke="#000000" fill-rule="nonzero" fill="#ffffff"/>
+   <path d="m151.810501,147.638794l116.189499,-36.515396l-78.275284,51.178391l-37.914215,-14.662994z" id="path2341" marker-end="none" marker-mid="none" marker-start="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke="#000000" fill-rule="nonzero" fill="#000000"/>
+   <path d="m223.373001,250.201294l-33.643799,-88.144333l-37.823959,-14.352081l71.467758,102.496414z" id="path2343" marker-end="none" marker-mid="none" marker-start="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke="#000000" fill-rule="nonzero" fill="#ffffff"/>
+   <path d="m224.530106,250.333481l-71.577469,-102.595551l-0.261765,42.287888l71.839233,60.307663z" id="path2345" marker-end="none" marker-mid="none" marker-start="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke="#000000" fill-rule="nonzero" fill="#000000"/>
+   <path d="m79.425858,251.102509l72.526779,-102.364044l0.047363,42.595016l-72.574142,59.769028z" id="path2347" marker-end="none" marker-mid="none" marker-start="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke="#000000" fill-rule="nonzero" fill="#ffffff"/>
+   <path d="m151.810501,147.638794l-72.407158,102.694687l34.047218,-88.592636l38.35994,-14.102051z" id="path2349" marker-end="none" marker-mid="none" marker-start="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke="#000000" fill-rule="nonzero" fill="#000000"/>
+   <path d="m151.905243,147.48613l-38.46228,14.338791l-78.387402,-51.239883l116.849682,36.901093" id="path2351" marker-end="none" marker-mid="none" marker-start="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke="#000000" fill-rule="nonzero" fill="#ffffff"/>
+   <path d="m152,147.860092l-116.916649,-37.3153l93.009132,5.819199l23.907516,31.496101z" id="path2353" marker-end="none" marker-mid="none" marker-start="none" stroke-dashoffset="0" stroke-miterlimit="4" stroke-linejoin="round" stroke="#000000" fill-rule="nonzero" fill="#000000"/>
+  </g>
+ </g>
+</svg>
